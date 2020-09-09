@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "poppins";
+  user-select: none;
+}
+p {
+  border-bottom:5px solid white;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+p::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn {
+  border: none;
+  color: red;
+}
+.editbtn {
+  border:none;
+  color: rgb(25, 223, 25);
+}
+span {
+  color: rgb(25, 223, 25);
+}
+.container-main {
+  width: 50%;
+  margin:auto;
+  overflow: hidden;
+  position: relative;
+}
+.container {
+  position: relative;
+}
+.container span{
+  float: right;
+  margin: 0px 10px;
+  /* padding: 10px; */
+  background-color: transparent;
+  margin-bottom: 10px;
+  font-size:20px;
+  cursor: pointer;
+}
+.inputForEdit {
+  float: right;
+  margin: 0px 10px;
+  margin-bottom: 10px;
+  font-size:20px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  display: none;
+}
+.inputForEdit:focus {
+  outline: none;
+}
+.container span:focus {
+  outline:none;
+  cursor: pointer;
+}
+#AddBtn {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  color: white;
+  border:none;
+  background-color: rgb(25, 223, 25);
+  font-size: 40px;
+}
+#AddBtn:focus {
+  outline: none;
+}
+#inputField {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 80%;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 40px;
+  font-size: 25px;
+}
+#inputField:focus {
+  outline: none;
+}
